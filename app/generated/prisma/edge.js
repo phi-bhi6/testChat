@@ -158,7 +158,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "D:\\Dell\\Webd\\Chat_App\\chat-app\\app\\generated\\prisma",
+      "value": "/workspaces/testChat/app/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -167,17 +167,16 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "windows",
+        "value": "debian-openssl-1.1.x",
         "native": true
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "D:\\Dell\\Webd\\Chat_App\\chat-app\\prisma\\schema.prisma",
+    "sourceFilePath": "/workspaces/testChat/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../../prisma",
   "clientVersion": "6.6.0",
@@ -186,11 +185,12 @@ const config = {
     "db"
   ],
   "activeProvider": "mongodb",
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "mongodb+srv://priya26304:priya26304@cluster0.a94zxhv.mongodb.net/test"
+        "value": null
       }
     }
   },
